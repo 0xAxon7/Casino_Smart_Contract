@@ -1,3 +1,34 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="right">
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=Tru3Bliss&project=Casino_Smart_Contract&lang=id">Bahasa Indonesia</a></p>
+      </div>
+    </div>
+  </details>
+</div>
+
 # 🎯 Project Setup Guide
 
 Welcome to the project! This guide will help you quickly get started by installing the required tools and configuring your local environment.
