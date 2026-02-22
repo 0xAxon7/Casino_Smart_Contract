@@ -1,12 +1,20 @@
-# Casino Smart Contract – Jackpot, Coinflip, Duel, Lottery, Plinko, Crash, Dice, Roulette, Wheel & More on Solana
+# Casino Smart Contract · Web3 Casino on Solana
 
-**Casino smart contract** for a full **casino** platform on Solana: **jackpot**, **coinflip**, **duel**, **lottery**, **plinko**, **prediction**, **crash**, **dice**, **roulette**, **wheel**, **mined**, **loot box**, **slots**, **blackjack**, live casino, sports betting, and more. Build a transparent, decentralized **casino** with provably fair games and instant payouts via Solana **smart contracts**.
+**Casino** · **Web3 casino** · **Casino smart contract**. On-chain **casino smart contract** for a **web3 casino** platform: provably fair **casino** games (jackpot, coinflip, duel, lottery, plinko, prediction, crash, dice, roulette, wheel, mines, loot box). Built for Solana, EVM, Monad, Sui, Abstract, Ronin. ORAO VRF for provably fair randomness.
+
+---
+
+## About this repository
+
+**Casino** · **Web3 casino** · **Casino smart contract**. On-chain **casino smart contract** powering a **web3 casino**: modular **casino** games (Coinflip, Duel, Lottery, Plinko, Prediction, Crash, Dice, Roulette, Wheel, Mines, Loot Box). Built for Solana, EVM, Monad, Sui, Abstract, Ronin. ORAO VRF provably fair.
+
+> **Git repo About (copy for description):** Casino · Web3 casino · Casino smart contract. On-chain casino smart contract for web3 casino: Coinflip, Duel, Lottery, Plinko, Prediction, Crash, Dice, Roulette, Wheel, Mines, Loot Box. Solana, EVM, Monad, Sui, Abstract, Ronin. ORAO VRF provably fair.
 
 ---
 
 ## What Is This Casino Smart Contract?
 
-This repository is a full-stack **casino** project with an **Anchor (Solana) smart contract** and a **casino** frontend (Gamblify).
+This repository is a full-stack **web3 casino** project: a **casino smart contract** (Anchor/Solana) and a **casino** frontend (Gamblify).
 
 **Current on-chain version:** The **casino smart contract** implements a **shared jackpot**—multiple players deposit SOL into a round, and one winner takes the pot. The smart contract handles:
 
@@ -15,7 +23,7 @@ This repository is a full-stack **casino** project with an **Anchor (Solana) sma
 - **Winner selection** – Admin sets the winner after the round ends
 - **Claim rewards** – Winner claims the pot from the **smart contract** vault
 
-**Other games:** The platform includes or can be extended with **coinflip**, **duel**, **lottery**, **plinko**, **prediction**, **crash**, **dice**, **roulette**, **wheel**, **mined**, **loot box**, **slots**, **blackjack**, live casino, game shows, sports betting, NFT marketplace, and more. Additional **casino games** can be developed and wired to new or existing **casino smart contracts** on Solana.
+**Other games:** The **web3 casino** includes or can be extended with **coinflip**, **duel**, **lottery**, **plinko**, **prediction**, **crash**, **dice**, **roulette**, **wheel**, **mines**, **loot box**, **slots**, **blackjack**, live casino, game shows, sports betting, NFT marketplace, and more. Additional **casino** games can be developed and wired to new **casino smart contracts**.
 
 ---
 
@@ -23,14 +31,14 @@ This repository is a full-stack **casino** project with an **Anchor (Solana) sma
 
 - **Transparency** – Round rules and payouts are visible on-chain.
 - **Trust** – Funds are held by the **smart contract**; no single party can move them without the program logic.
-- **Decentralization** – **Casino** rounds run on Solana; no central game server required for core logic.
-- **Composability** – The **casino smart contract** can be integrated with other Solana dApps and frontends.
+- **Decentralization** – **Web3 casino** rounds run on-chain; no central game server required.
+- **Composability** – The **casino smart contract** can power any **web3 casino** or Solana dApp.
 
 ---
 
 ## Casino Games – Jackpot (On-Chain) & More
 
-The **casino** platform supports a wide range of **casino games**. The **current** live implementation is the **shared jackpot** (on-chain **casino smart contract**). Other games are available in the frontend or can be developed and connected to **casino smart contracts**:
+The **web3 casino** platform supports a wide range of **casino** games. The **current** on-chain implementation is the **shared jackpot** (**casino smart contract**). Other games are available in the frontend or can be developed and connected to **casino smart contracts**:
 
 | Game | Description | On-chain today |
 |------|-------------|----------------|
@@ -44,15 +52,15 @@ The **casino** platform supports a wide range of **casino games**. The **current
 | **Dice** | Dice roll over/under | Extensible |
 | **Roulette** | European / American roulette | Extensible |
 | **Wheel** | Wheel of fortune / spin games | Extensible |
-| **Mined** | Mine / grid reveal game | Extensible |
-| **Loot box** | Randomized reward boxes | Extensible |
+| **Mines** | Mine / grid reveal game | Extensible |
+| **Loot Box** | Randomized reward box openings | Extensible |
 | **Slots** | Slot machine games | Extensible |
 | **Blackjack** | Classic blackjack | Extensible |
 | **Live Casino** | Live dealers, game shows | Extensible |
 | **Sports Betting** | Sports, live betting | Extensible |
 | **NFT Marketplace** | NFT trading, portfolio | Extensible |
 
-Use this **casino smart contract** (jackpot) as the foundation, and extend with **coinflip**, **duel**, **lottery**, **plinko**, **prediction**, **crash**, **dice**, **roulette**, **wheel**, **mined**, **loot box**, and other **casino games** as you build.
+Use this **casino smart contract** (jackpot) as the foundation for your **web3 casino**, and extend with **coinflip**, **duel**, **lottery**, **plinko**, **prediction**, **crash**, **dice**, **roulette**, **wheel**, **mines**, **loot box**, and other **casino** games.
 
 ---
 
@@ -61,9 +69,9 @@ Use this **casino smart contract** (jackpot) as the foundation, and extend with 
 | Path | Description |
 |------|-------------|
 | **[Smart-Contract](./Smart-Contract/)** | Solana **casino smart contract** (Anchor) – jackpot rounds, config, join, set winner, claim |
-| **[FrontEnd](./FrontEnd/)** | **Casino** frontend (React) – **jackpot**, **coinflip**, **duel**, **lottery**, **plinko**, **crash**, **dice**, **roulette**, **wheel**, **mined**, **loot box**, slots, blackjack, live casino, sports, NFT |
+| **[FrontEnd](./FrontEnd/)** | **Casino** frontend (React) – **jackpot**, **coinflip**, **duel**, **lottery**, **plinko**, **crash**, **dice**, **roulette**, **wheel**, **mines**, **loot box**, slots, blackjack, live casino, sports, NFT |
 
-The **casino smart contract** (shared **jackpot**) lives in `Smart-Contract/programs/jackpot_smart_contract/`. The **casino** web app delivers **coinflip**, **duel**, **lottery**, **plinko**, **prediction**, **crash**, **dice**, **roulette**, **wheel**, **mined**, **loot box**, and other **casino games**; more can be developed and hooked to new smart contracts.
+The **casino smart contract** (shared **jackpot**) lives in `Smart-Contract/programs/jackpot_smart_contract/`. The **web3 casino** frontend delivers **coinflip**, **duel**, **lottery**, **plinko**, **prediction**, **crash**, **dice**, **roulette**, **wheel**, **mines**, **loot box**, and other **casino** games; more can be developed and hooked to new **casino smart contracts**.
 
 ---
 
@@ -99,7 +107,7 @@ npm install   # or yarn
 npm start     # or yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The **casino** UI includes **jackpot**, **coinflip**, **duel**, **lottery**, **plinko**, **crash**, **dice**, **roulette**, **wheel**, **mined**, **loot box**, slots, blackjack, live casino, sports betting, NFT marketplace, and more. See **[FrontEnd README](./FrontEnd/README.md)** for scripts and structure.
+Open [http://localhost:3000](http://localhost:3000). The **web3 casino** UI includes **jackpot**, **coinflip**, **duel**, **lottery**, **plinko**, **crash**, **dice**, **roulette**, **wheel**, **mines**, **loot box**, slots, blackjack, live casino, sports betting, NFT marketplace, and more. See **[FrontEnd README](./FrontEnd/README.md)** for scripts and structure.
 
 ---
 
@@ -112,16 +120,16 @@ Open [http://localhost:3000](http://localhost:3000). The **casino** UI includes 
 
 ## Keywords Summary (for SEO)
 
-- **Casino** – Full **casino** platform: **jackpot**, **coinflip**, **duel**, **lottery**, **plinko**, **prediction**, **crash**, **dice**, **roulette**, **wheel**, **mined**, **loot box**, slots, blackjack, live casino, sports, NFT.
-- **Casino smart contract** – Solana **smart contract** for **casino** (current: shared **jackpot**; extensible to **coinflip**, **duel**, **lottery**, **plinko**, **crash**, **dice**, **roulette**, **wheel**, **mined**, etc.).
-- **Casino games** – **Coinflip**, **duel**, **lottery**, **plinko**, **prediction**, **crash**, **dice**, **roulette**, **wheel**, **mined**, **loot box**, slots, blackjack, jackpot, live casino, sports betting, NFT.
-- Related: blockchain casino, Solana casino, decentralized casino, casino coinflip, casino plinko, crash game casino, dice casino, roulette casino, casino loot box, online casino smart contract, provably fair casino.
+- **Casino** – **Casino** platform and **casino** games (jackpot, coinflip, duel, lottery, plinko, prediction, crash, dice, roulette, wheel, mines, loot box, slots, blackjack).
+- **Web3 casino** – **Web3 casino** on Solana; decentralized **casino** with on-chain **casino smart contract**.
+- **Casino smart contract** – On-chain **casino smart contract** for **web3 casino**; provably fair with ORAO VRF; modular **casino** games.
+- Related: casino, web3 casino, casino smart contract, blockchain casino, Solana casino, decentralized casino, online casino smart contract, provably fair casino.
 
 ---
 
 ## Disclaimer
 
-This **casino** and **casino smart contract** are for educational and development use. Ensure compliance with local gambling and financial regulations before operating any real-money **casino** or gaming product.
+This **web3 casino** and **casino smart contract** are for educational and development use. Ensure compliance with local gambling and financial regulations before operating any real-money **casino** or gaming product.
 
 ---
 
