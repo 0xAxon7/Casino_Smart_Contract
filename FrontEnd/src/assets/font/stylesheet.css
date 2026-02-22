@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-ExtraLight.eot");
+  src: local("GeogrotesqueCyr-ExtraLight"),
+    url("GeogrotesqueCyr-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-ExtraLight.woff2") format("woff2"),
+    url("GeogrotesqueCyr-ExtraLight.woff") format("woff"),
+    url("GeogrotesqueCyr-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-Italic.eot");
+  src: local("GeogrotesqueCyr-Italic"),
+    url("GeogrotesqueCyr-Italic.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-Italic.woff2") format("woff2"),
+    url("GeogrotesqueCyr-Italic.woff") format("woff"),
+    url("GeogrotesqueCyr-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-ExtLtIta.eot");
+  src: local("GeogrotesqueCyr-ExtLtIta"),
+    url("GeogrotesqueCyr-ExtLtIta.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-ExtLtIta.woff2") format("woff2"),
+    url("GeogrotesqueCyr-ExtLtIta.woff") format("woff"),
+    url("GeogrotesqueCyr-ExtLtIta.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-BoldItalic.eot");
+  src: local("GeogrotesqueCyr-BoldItalic"),
+    url("GeogrotesqueCyr-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-BoldItalic.woff2") format("woff2"),
+    url("GeogrotesqueCyr-BoldItalic.woff") format("woff"),
+    url("GeogrotesqueCyr-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-Light.eot");
+  src: local("GeogrotesqueCyr-Light"),
+    url("GeogrotesqueCyr-Light.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-Light.woff2") format("woff2"),
+    url("GeogrotesqueCyr-Light.woff") format("woff"),
+    url("GeogrotesqueCyr-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-ThinItalic.eot");
+  src: local("GeogrotesqueCyr-ThinItalic"),
+    url("GeogrotesqueCyr-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-ThinItalic.woff2") format("woff2"),
+    url("GeogrotesqueCyr-ThinItalic.woff") format("woff"),
+    url("GeogrotesqueCyr-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-Medium.eot");
+  src: local("GeogrotesqueCyr-Medium"),
+    url("GeogrotesqueCyr-Medium.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-Medium.woff2") format("woff2"),
+    url("GeogrotesqueCyr-Medium.woff") format("woff"),
+    url("GeogrotesqueCyr-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-Bold.eot");
+  src: local("GeogrotesqueCyr-Bold"),
+    url("GeogrotesqueCyr-Bold.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-Bold.woff2") format("woff2"),
+    url("GeogrotesqueCyr-Bold.woff") format("woff"),
+    url("GeogrotesqueCyr-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-Thin.eot");
+  src: local("GeogrotesqueCyr-Thin"),
+    url("GeogrotesqueCyr-Thin.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-Thin.woff2") format("woff2"),
+    url("GeogrotesqueCyr-Thin.woff") format("woff"),
+    url("GeogrotesqueCyr-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-SemBdIta.eot");
+  src: local("GeogrotesqueCyr-SemBdIta"),
+    url("GeogrotesqueCyr-SemBdIta.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-SemBdIta.woff2") format("woff2"),
+    url("GeogrotesqueCyr-SemBdIta.woff") format("woff"),
+    url("GeogrotesqueCyr-SemBdIta.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-Regular.eot");
+  src: local("GeogrotesqueCyr-Regular"),
+    url("GeogrotesqueCyr-Regular.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-Regular.woff2") format("woff2"),
+    url("GeogrotesqueCyr-Regular.woff") format("woff"),
+    url("GeogrotesqueCyr-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-MediumItalic.eot");
+  src: local("GeogrotesqueCyr-MediumItalic"),
+    url("GeogrotesqueCyr-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-MediumItalic.woff2") format("woff2"),
+    url("GeogrotesqueCyr-MediumItalic.woff") format("woff"),
+    url("GeogrotesqueCyr-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr";
+  src: url("GeogrotesqueCyr-LightItalic.eot");
+  src: local("GeogrotesqueCyr-LightItalic"),
+    url("GeogrotesqueCyr-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-LightItalic.woff2") format("woff2"),
+    url("GeogrotesqueCyr-LightItalic.woff") format("woff"),
+    url("GeogrotesqueCyr-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Geogrotesque Cyr SemiBold";
+  src: url("GeogrotesqueCyr-SemiBold.eot");
+  src: local("GeogrotesqueCyr-SemiBold"),
+    url("GeogrotesqueCyr-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("GeogrotesqueCyr-SemiBold.woff2") format("woff2"),
+    url("GeogrotesqueCyr-SemiBold.woff") format("woff"),
+    url("GeogrotesqueCyr-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}

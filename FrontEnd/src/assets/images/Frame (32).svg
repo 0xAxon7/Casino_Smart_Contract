@@ -1,0 +1,13 @@
+<svg width="9" height="15" viewBox="0 0 9 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame" clip-path="url(#clip0_1_3014)">
+<path id="Vector" d="M0 4.70001H3.75V13.1H0V4.70001Z" fill="currentColor"/>
+<path id="Vector_2" d="M1.5 3.29999H2.25V14.5H1.5V3.29999Z" fill="currentColor"/>
+<path id="Vector_3" d="M5.25 1.89999H9V10.3H5.25V1.89999Z" fill="currentColor"/>
+<path id="Vector_4" d="M6.75 0.5H7.5V11.7H6.75V0.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_1_3014">
+<rect width="9" height="14" fill="currentColor" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>
