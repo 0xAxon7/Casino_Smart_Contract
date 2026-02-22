@@ -51,32 +51,9 @@ pub struct SetWinner<'info> {
 
 impl<'info> SetWinner<'info> {
     pub fn handler(&mut self, round_num: u64) -> Result<()> {
-        require!(
-            round_num < self.global_config.game_round,
-            ContractError::RoundNumberError
-        );
-
-        let game_ground = &mut self.game_ground;
-        let timestamp = Clock::get()?.unix_timestamp;
-
-        require!(
-            game_ground.end_date <= timestamp,
-            ContractError::GameNotCompleted
-        );
-        require!(
-            game_ground.is_completed == false,
-            ContractError::SetWinnerCompleted
-        );
-
-        let rand_acc = crate::misc::get_account_data(&self.random)?;
-
-        let randomness = current_state(&rand_acc);
-        if randomness == 0 {
-            return err!(ContractError::StillProcessing);
-        }
-
-        game_ground.set_winner(randomness)?;
-        game_ground.is_completed = true;
+       
+        // solana Casino smart contract | customized Casino smart contract, CoinFlip, Blackjack, Roulette, Slot, Dice, etc.
+        // **Discord**: [@0xAxon7](https://discord.com/users/1274339638668038187)    
 
         Ok(())
     }

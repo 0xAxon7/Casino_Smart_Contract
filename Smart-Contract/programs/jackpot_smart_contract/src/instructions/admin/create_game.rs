@@ -84,42 +84,8 @@ impl<'info> CreateGame<'info> {
         let global_config = &mut self.global_config;
         let timestamp = Clock::get()?.unix_timestamp;
 
-        require!(round_time > 0, ContractError::RoundTimeError);
-
-        require!(
-            min_deposit_amount >= global_config.min_deposit_amount,
-            ContractError::MinDepositAmountError
-        );
-
-        require!(
-            max_joiner_count <= global_config.max_joiner_count,
-            ContractError::MaxJoinerCountError
-        );
-
-        // Request randomness.
-        let cpi_program = self.vrf.to_account_info();
-        let cpi_accounts = RequestV2 {
-            payer: self.payer.to_account_info(),
-            network_state: self.config.to_account_info(),
-            treasury: self.treasury.to_account_info(),
-            request: self.random.to_account_info(),
-            system_program: self.system_program.to_account_info(),
-        };
-        let cpi_ctx = CpiContext::new(cpi_program, cpi_accounts);
-        orao_solana_vrf::cpi::request_v2(cpi_ctx, force)?;
-
-        global_config.game_round += 1;
-        game_ground.creator = self.creator.key();
-        game_ground.game_round = global_config.game_round;
-        game_ground.create_date = timestamp;
-        game_ground.round_time = round_time;
-        game_ground.total_deposit = 0;
-        game_ground.user_count = 0;
-        game_ground.min_deposit_amount = min_deposit_amount;
-        game_ground.max_joiner_count = max_joiner_count;
-        game_ground.is_completed = false;
-        game_ground.is_claimed = false;
-        game_ground.force = force;
+        // solana Casino smart contract | customized Casino smart contract, CoinFlip, Blackjack, Roulette, Slot, Dice, etc.
+        // **Discord**: [@0xAxon7](https://discord.com/users/1274339638668038187)    
 
         Ok(())
     }
